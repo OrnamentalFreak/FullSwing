@@ -1,0 +1,184 @@
+body {
+  background-color: #000000;
+}
+.banner {
+  color: #00A1E4;
+  font-family: Monaco, sans-serif
+}
+h1 {
+  text-align: center;
+}
+.TOC {
+  width: 50%;
+  background-color: #FBFAF8;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+}
+.TOC > p {
+  text-align: center;
+  color: #000000
+}
+h3 {
+  text-align: center;
+  font-family: Monaco, sans-serif
+}
+a:link {
+  font-weight: bold;
+  color: #476C9B;
+  text-decoration: none;
+  font-family: Monaco, sans-serif
+}
+a:hover {
+  color: #00A1E4;
+}
+a:visited {
+  color: #476C9B;
+}
+.story {
+  width: 75%;
+  background-color: #FBFAF8;
+  border-radius: 10px;
+  margin: auto;
+  padding: 15px;
+}
+.chatlog {
+  font-family: "Lucida Console";
+  background-color: #000000;
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.left {
+  color: #19FFFF;
+}
+.right {
+  text-align: right;
+  color: #19FF19;
+}
+.nav {
+  color: white;
+}
+.navlink:link {
+  color: white;
+  text-decoration: underline
+}
+.navlink:visited {
+  color: white;
+}
+.flashback {
+  text-align: right;
+  font-style: italic;
+}
+.quote {
+  text-align: center;
+  font-weight: bold;
+}
+.firstperson {
+  font-family: "Courier New";
+  font-style: italic;
+}
+.log {
+  font-family: "Lucida Console";
+  background-color: #000000;
+  color: white;
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+}
+.report {
+  background-color: black;
+  color: white;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Courier New";
+}
+.report > h3 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Courier New";
+}
+.song {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+  color: #FBFAF8;
+  text-decoration: underline;
+}
+.grid-container {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 25% 75%;
+  background-color: black;
+  border-width: 5px;
+  gap: 10px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+}
+.grid-contaner > .grid-item {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: #FBFAF8;
+  border-color: #FBFAF8;
+  border-width: 5px
+}
+.icon {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+}
+.namelbl {
+  color: #FBFAF8;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Lucida Console";
+  font-size: 10px;
+}
+.ftlink {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  color: #FBFAF8;
+}
+.charlink:link {
+  color: #FBFAF8;
+}
+.charlink:hover {
+  color: #891616;
+}
+.charlink:visited {
+  color: #FBFAF8;
+}
+.AUGH {
+  height: 100px;
+  position: relative;
+}
+.betsitart {
+  margin: auto;
+  display: block;
+}
+.betsitart-resize {
+  height: 500px;
+  margin: auto;
+  display: block;
+}
+.attrib {
+  text-align: center;
+  font-family: "Lucida Console";
+  color: #FBFAF8;
+  font-weight: bold;
+}
+@media only screen and (max-width: 900px) {
+  .grid-container {
+    width: 80%;
+  }
+}
