@@ -60,14 +60,14 @@ a:visited {
   color: #19FF19;
 }
 .nav {
-  color: white;
+  color: #EF6351;
 }
 .navlink:link {
-  color: white;
+  color: #EF6351;
   text-decoration: underline
 }
 .navlink:visited {
-  color: white;
+  color: #EF6351;
 }
 .flashback {
   text-align: right;
