@@ -185,3 +185,14 @@ h2 {
 .cw {
   font-family: Courier New;
 }
+.h1white {
+  color: #FBFAF8;
+}
+.footnote {
+  font-family: 'Brush Script MT', cursive;
+  color: red;
+  font-weight: bold;
+}
+.handwritten {
+  font-family: 'Brush Script MT', cursive;
+}
